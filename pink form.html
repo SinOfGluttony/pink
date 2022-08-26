@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+<head>
+  <meta charset="utf8">
+  <title>Pink</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header-logo">
+        <img src="img/index-logo.svg" width="368" height="153" alt="Логотип сайта Pink">
+      </a>
+      <ul class="site-navigation">
+        <li><a href="main.html">Главная</a></li>
+        <li><a href="photo.html">Фотографии</a></li>
+        <li><a href="contests.html">Конкурсы</a></li>
+        <li><a href="academy.html">HTML academy</a></li>
+      </ul>
+
+    </nav>
+  </header>
+  <main class="container">
+    <h1 class="visually-hidden">Конкурс на самое безбашенное путешествие с Пинк</h1>
+    <p>Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту!
+      Пожалуйста, заполните форму ниже:</p>
+    <form class="appointment-form" action="" т method="post">
+      <p>
+        <label class="appointment-item">
+          Фамилия:
+          <input type="text" name="surname" value="" placeholder="Укажите фамилию">
+        </label>
+      </p>
+      <p>
+        <label class="appointment-item">
+          Имя:
+          <input type="text" name="name" value="" placeholder="Укажите имя">
+        </label>
+      </p>
+      <p>
+        <label class="appointment-item">
+          Отчество:
+          <input type="text" name="middle-name" value="" placeholder="Укажите отчество">
+        </label>
+      </p>
+      <fieldset>
+        <legend>С каким приложением путешествовали?</legend>
+        <ul>
+          <li>
+            <input type="radio" name="applications" value="ios" id="filter-ios">
+            <label for="filter-ios">
+              Pink для iOS
+            </label>
+          </li>
+          <li>
+            <input type="radio" name="applications" value="android" id="filter-android">
+            <label for="filter-android">
+              Pink на Android
+            </label>
+          </li>
+          <li>
+            <input type="radio" name="applications" value="windows" id="filter-windows">
+            <label for="filter-windows">
+              Windows Phone
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Контактная информация</legend>
+        <label class="appointment-item">
+          <input type="text" name="number-phone" value="" placeholder="Номер,пожалуйста">
+          <div>Номер телефона</div>
+        </label>
+        <label class="appointment-item">
+          <input type="text" name="mail" value="" placeholder="Введите почту*">
+          <div>Адрес почты</div>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Ваши безбашенные достижения в путешествении</legend>
+        <li>
+          <input type="checkbox" name="achievements" id="filter-selfie" checked>
+          <label>Сделал селфи с акулой</label>
+        </li>
+        <li>
+          <input type="checkbox" name="achievements" id="filter-beach" checked>
+          <label>Обгорел на пляже</label>
+        </li>
+        <li>
+          <input type="checkbox" name="achievements" id="filter-chak">
+          <label>Видел Чака Норриса</label>
+        </li>
+        <li>
+          <input type="checkbox" name="achievements" id="filter-souvenirs">
+          <label>Накупил сувениров</label>
+        </li>
+        <li>
+          <input type="checkbox" name="achievements" id="filter-tower" checked>
+          <label>Удержал Башню</label>
+        </li>
+        <li>
+            <input type="checkbox" name="achievements" id="filter-hotel">
+          <label>Разгромил отель</label>
+        </li>
+      </fieldset>
+      <fieldset>
+        <legend>Опишите свои эмоции</legend>
+        <textarea type="text" name="emotions" value=""
+          placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+      </fieldset>
+      <button type="submit">Отправить форму</button>
+      <a>
+        *- Обязательные для заполнения поля
+      </a>
+    </form>
+  </main>
+  <footer>
+    <img src="img/index-logo.svg" width="368" height="153" alt="Логотип сайтай Pink">
+    <div social="footer social">
+      <a class="social-button" href="#">Твиттер</a>
+      <a class="social-button" href="#">Фейсбук</а>
+        <a class="social-button" href="#">Ютуб</a>
+
+    </div>
+
+  </footer>
+
+
+</body>
+
+
+</html>
